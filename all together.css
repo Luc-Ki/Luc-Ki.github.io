@@ -1,0 +1,49 @@
+div {
+  display: flex;
+  height: 500px;
+/*  specify margin here and not in mani and aside!!!  */
+  margin: 80px 100px 10px;
+  
+}
+
+header {
+  background: purple;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 10px 90px;
+}
+
+a {
+  display: block;
+  width: 100px;
+  height: 30px;
+  background: cyan;
+  margin: 10px;
+}
+
+.bigger {
+  width: 150px;
+}
+
+main {
+  flex-grow: 3;
+  background: yellow;
+}
+
+aside {
+  flex-grow: 1;
+  background: lime;
+}
+
+footer {
+  
+/* top, left, bottom, right  - check */
+  
+  margin: 0 100px;
+  background: lightgrey;
+  height: 80px;
+}
